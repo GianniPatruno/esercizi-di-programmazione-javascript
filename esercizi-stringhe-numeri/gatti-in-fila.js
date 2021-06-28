@@ -17,9 +17,16 @@
 
   http://www.imparareaprogrammare.it
 */
-gatti =44;
-file=6;
-filetotali= gatti / file;
-gattimancanti= filetotali * file - gatti;
+var gatti =44;
+var file=6;
+var filetotali= gatti / file;
+
+var rounded = Math.ceil(filetotali);
+
+gattimancanti= rounded * file - gatti;
+
+console.log("File totali di gatti: " + rounded );
+console.log("gatti mancanti: " + gattimancanti);
+
 
 
