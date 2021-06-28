@@ -17,4 +17,9 @@
 
   http://www.imparareaprogrammare.it
 */
-cats =44;
+gatti =44;
+file=6;
+filetotali= gatti / file;
+gattimancanti= filetotali * file - gatti;
+
+
